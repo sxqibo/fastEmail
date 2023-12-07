@@ -1,0 +1,38 @@
+{
+  "name": "sxqibo/fast-email",
+  "description": "快速发送邮件，目前使用阿里云邮件",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "hongwei",
+      "email": "403236160@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "alibabacloud/dm-20151123": "^1.0.8",
+    "alibabacloud/darabonba-openapi": "^0.2.8",
+    "alibabacloud/tea-console": "^0.1.0",
+    "alibabacloud/tea-utils": "^0.2.19"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "Sxqibo\\FastEmail\\": "src/"
+    }
+  },
+  "scripts": {
+    "fixer": "php-cs-fixer fix ./"
+  },
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  },
+  "prefer-stable": true,
+  "keywords": [
+    "邮件",
+    "阿里云邮件"
+  ]
+}
