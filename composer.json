@@ -11,10 +11,11 @@
   ],
   "require": {
     "php": ">=8.0",
-    "alibabacloud/dm-20151123": "^1.0.8",
     "alibabacloud/darabonba-openapi": "^0.2.8",
+    "alibabacloud/dm-20151123": "^1.0.8",
     "alibabacloud/tea-console": "^0.1.0",
-    "alibabacloud/tea-utils": "^0.2.19"
+    "alibabacloud/tea-utils": "^0.2.19",
+    "phpmailer/phpmailer": "^6.9"
   },
   "autoload": {
     "files": [],
